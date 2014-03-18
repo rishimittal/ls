@@ -1,0 +1,23 @@
+
+IMPLEMENTATION OF LS
+
+Including Files :
+	a. pro.c(contains main()) 
+	b  proHeader.h (Contains Class , methods and header files declarations)
+	c. attributes.c (Usually returns the file attributes kind of functions)
+	d. filters.c (usually consists of the filter functions relevant to options used in ls)
+	e. makefile
+Steps :
+	1. Scroll down to the folder containing these four files.
+	2. Type make and press Enter.
+	3. my_ls executable file would be generated.
+	4. usage like ./my_ls -<options> <arguments>
+
+Properties :
+	1. Options such as -l ,-a ,-d ,-S ,-t , -R are working fine .
+	2. Multiple or none arguments could be passed in the the command.
+	3. Any permutation of -l ,-a ,-d ,-S ,-t could be used.
+	4. Symbolic_Links are resolved.
+	5. Display all seven types of file and their characterstics differently.
+	6. Output Text is Coloured as per the requrements.
+	7. ls -l output is formatted.
